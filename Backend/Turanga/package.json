@@ -1,0 +1,18 @@
+{
+  "name": "turanga",
+  "version": "1.0.0",
+  "description": "Dyanmically and adaptively updates trade settings, for Leela to use ",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "moment": "^2.24.0",
+    "node-fetch": "^2.6.0"
+  }
+}

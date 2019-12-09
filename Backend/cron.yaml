@@ -1,0 +1,9 @@
+cron:
+- description: "getSentimentData"
+  url: /getSentimentData
+  schedule: every 30 minutes from 00:00 to 23:59
+  target: default
+- description: "getPriceData"
+  url: /getPriceData
+  schedule: every 5 minutes from 00:00 to 23:59
+  target: default

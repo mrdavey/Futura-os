@@ -1,0 +1,5 @@
+runtime: nodejs10
+service: default
+
+automatic_scaling:
+  max_instances: 1
